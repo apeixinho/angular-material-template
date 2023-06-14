@@ -29,6 +29,7 @@
             "styles": [
               "src/styles.css"
             ],
+            "allowedCommonJsDependencies": ["moment","opentelemetry"],
             "scripts": []
           },
           "configurations": {
