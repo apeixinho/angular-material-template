@@ -19,6 +19,7 @@ export class UserListComponent implements OnInit {
 
   ngOnInit() {
     this.titleService.setTitle('angular-material-template - Users');
+    // this.notificationService.openSnackBar('Users loaded');
     this.logger.log('Users loaded');
   }
 }
